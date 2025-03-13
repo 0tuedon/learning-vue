@@ -8,7 +8,6 @@ Vue.createApp({
   },
   methods:{
     addList(){
-      console.log("this.input")
       this.valueList.push(this.inputValue);
       this.inputValue = '';
     }
